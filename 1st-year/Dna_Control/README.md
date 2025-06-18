@@ -16,6 +16,7 @@ Dna_Control/
 ├──src/dna_Control
    ├──DNAControl.java
    └──DNAControlTest.java
+└──README.md
 
 Nasıl Çalışır?
 
