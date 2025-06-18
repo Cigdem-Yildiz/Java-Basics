@@ -6,10 +6,10 @@ import java.util.StringTokenizer;
 public class BinaryToDeci {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
+
+		System.out.print("Enter the binary number: ");
 		String binary = in.nextLine();
 
-		// Write an answer using System.out.println()
-		// To debug: System.err.println("Debug messages...");
 		StringTokenizer st = new StringTokenizer(binary);
 		int decimal = 0, carp = st.countTokens() - 1;
 		while (st.hasMoreTokens()) {
@@ -20,7 +20,8 @@ public class BinaryToDeci {
 			carp--;
 		}
 
-		System.out.println(decimal);
+		System.out.println("\nBinary number: " + binary);
+		System.out.println("Decimal equivalent: " + decimal);
 		in.close();
 	}
 }
