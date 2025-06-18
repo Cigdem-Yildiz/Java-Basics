@@ -9,11 +9,10 @@ Kullanılan Teknolojiler
 
 Dosyalar
 
-DNA_Control/bin/dna_control/DNAControl.class
-DNA_Control/bin/dna_control/DNAControlTest.class
-DNA_Control/src/dna_Control/DNAControl.java
-DNA_Control/src/dna_Control/DNAControlTest.java
-DNA_Control/README.md
+DNA_Control/
+-DNAControl.java
+-DNAControlTest.java
+-README.md
 
 Nasıl Çalışır?
 
