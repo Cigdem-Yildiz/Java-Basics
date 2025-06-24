@@ -22,17 +22,17 @@ bi_to_dec/
 Nasıl Çalışır?
 
 1. Kullanıcıdan boşlukla ayrılmış binary ifadeler alınır.
-2. Her bir girdi bu değerlerden biriyse '1' kabul edilir: "1", "one", "true", "yes".
+2. Her bir girdi bu değerlerden biriyse `1` kabul edilir: `1`, `one`, `true`, `yes`.
 3. Diğer tüm değerler `0` kabul edilerek işlem yapılır.
 4. Binary sayı, onluk (decimal) karşılığına çevrilir ve ekrana yazdırılır.
 *****************
 
 Örnek Girdi-Çıktı
 
-Enter the binary number: 1 true false no zero one one 0
+Enter the binary number: `1 true false no zero one one 0`
 
-Binary number: 1 true false no zero one one 0
-Decimal equivalent: 198
+Binary number: `1 true false no zero one one 0`
+Decimal equivalent: `198`
 ********
 
 Açıklama
