@@ -1,5 +1,4 @@
 # Hangman Game
-------------
 
 Bu proje, klasik **Adam Asmaca (Hangman)** oyununu Java ile konsolda oynamanızı sağlar.  
 Rastgele seçilen bir kelimeyi harf harf tahmin ederek bulmaya çalışırsınız.  
@@ -17,7 +16,6 @@ hangman_game/
 ├── HangmanGame.java
 └── README.md
 ```
-***
 
 ## Nasıl Oynanır?
 
@@ -26,7 +24,6 @@ hangman_game/
 3. Her doğru tahminde kelimenin o harfi açılır.
 4. Her yanlış tahminde "adam" çizmeye başlar.
 5. 6 yanlışta oyun biter!
-***
 
 ## Programı Çalıştırma
 
@@ -39,7 +36,6 @@ hangman_game/
 
 _ _ _ _ _ _
 Enter your guess: e
-***
 
 ## Öğrenilenler
 - ArrayList ile dinamik liste yönetimi
@@ -49,7 +45,6 @@ Enter your guess: e
 - Random sınıfı ile rastgele kelime seçimi
 
 - switch-case yapısı ile ASCII sanat (adam çizimi)
-***
 
 ## Geliştirme Fikirleri
 - Zorluk seviyesi (kolay / zor kelimeler)
@@ -59,7 +54,6 @@ Enter your guess: e
 - Skor sistemi ekleme
 
 - Türkçe karakter desteği
-***
 
 ## Geliştiren
 Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
