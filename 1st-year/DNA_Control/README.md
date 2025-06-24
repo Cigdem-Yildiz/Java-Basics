@@ -4,8 +4,8 @@ Bu program iki DNA dizisi arasındaki en uzun ortak parçayı bulmak için tasar
 
 ## Kullanılan Teknolojiler
 
--Java
--Eclipse IDE
+- Java
+- Eclipse IDE
 
 ## Dosyalar
 
