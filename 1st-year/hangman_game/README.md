@@ -56,4 +56,5 @@ Enter your guess: e
 - Türkçe karakter desteği
 
 ## Geliştiren
-Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
+
+[Çiğdem Yıldız](https://github.com/Cigdem-Yildiz)
