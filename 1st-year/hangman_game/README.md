@@ -1,4 +1,4 @@
-Hangman Game
+#Hangman Game
 ------------
 
 Bu proje, klasik **Adam Asmaca (Hangman)** oyununu Java ile konsolda oynamanızı sağlar.  
@@ -6,7 +6,7 @@ Rastgele seçilen bir kelimeyi harf harf tahmin ederek bulmaya çalışırsını
 Toplam 6 yanlış hakkınız vardır.
 ***
 
-Kullanılan Teknolojiler
+##Kullanılan Teknolojiler
 
 - Java
 - Eclipse IDE
