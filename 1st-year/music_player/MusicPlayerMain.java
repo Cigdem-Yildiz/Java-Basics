@@ -26,6 +26,10 @@ public class MusicPlayerMain {
 		Scanner scanner = new Scanner(System.in);
 		Clip clip = null;
 		AudioInputStream audioStream = null;
+		
+		System.out.println("****************");
+		System.out.println("* MUSIC PLAYER *");
+		System.out.println("****************");
 
 		while (true) {
 
@@ -52,7 +56,7 @@ public class MusicPlayerMain {
 					System.out.println("R = Reset");
 					System.out.println("N = Next Song");
 					System.out.println("F = Former Song");
-					System.out.println("Q = Quit");
+					System.out.println("E = Exit");
 					System.out.print("Enter your choice: ");
 
 					response = scanner.next().toUpperCase();
@@ -83,7 +87,7 @@ public class MusicPlayerMain {
 						System.out.println("Previous song selected.");
 						break;
 					}
-					case "Q": {
+					case "E": {
 						clip.stop();
 						clip.close();
 						scanner.close();
