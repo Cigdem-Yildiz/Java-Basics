@@ -31,7 +31,9 @@ DNA_Control/
 ## Örnek Girdi - Çıktı
 
 Enter the first dna: ATCGTAA
+
 Enter the second dna: GTCGTAG
+
 Common parts: TCGTA (5)
 
 ## Öğrenilenler
