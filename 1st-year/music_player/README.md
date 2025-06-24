@@ -101,4 +101,4 @@ Not: GUI sürümü ayrı bir branch veya klasörde yayınlanacaktır.
 
 ## Geliştiren
 
-Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
+[Çiğdem Yıldız](https://github.com/Cigdem-Yildiz)
