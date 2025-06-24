@@ -53,4 +53,4 @@ vowel_counter/
 
 ## Geliştiren
 
-Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
+[Çiğdem Yıldız](https://github.com/Cigdem-Yildiz)
