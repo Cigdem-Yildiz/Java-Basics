@@ -51,4 +51,4 @@ Binary: 1 1 0 0 0 1 1 0 → (11000110)₂ = 198₁₀
 
 ## Geliştiren
 
-Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
+[Çiğdem Yıldız](https://github.com/Cigdem-Yildiz)
