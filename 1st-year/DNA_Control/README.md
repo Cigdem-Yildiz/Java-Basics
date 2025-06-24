@@ -34,7 +34,7 @@ Programı Çalıştırma
 3. Konsoldan iki DNA dizisi girin.
 *************
 
-Örnek Girdi-Çıktı
+Örnek Girdi - Çıktı
 
 Enter the first dna: ATCGTAA
 Enter the second dna: GTCGTAG
