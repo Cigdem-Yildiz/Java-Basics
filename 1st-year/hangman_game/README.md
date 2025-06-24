@@ -1,4 +1,4 @@
-#Hangman Game
+# Hangman Game
 ------------
 
 Bu proje, klasik **Adam Asmaca (Hangman)** oyununu Java ile konsolda oynamanızı sağlar.  
@@ -6,13 +6,13 @@ Rastgele seçilen bir kelimeyi harf harf tahmin ederek bulmaya çalışırsını
 Toplam 6 yanlış hakkınız vardır.
 ***
 
-##Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Java
 - Eclipse IDE
 ***
 
-Dosya Yapısı
+## Dosya Yapısı
 
 ```
 hangman_game/
@@ -21,7 +21,7 @@ hangman_game/
 ```
 ***
 
-Nasıl Oynanır?
+## Nasıl Oynanır?
 
 1. Program çalıştığında rastgele bir kelime seçilir.
 2. Sizden birer harf girmeniz istenir.
@@ -30,7 +30,7 @@ Nasıl Oynanır?
 5. 6 yanlışta oyun biter!
 ***
 
-Programı Çalıştırma
+## Programı Çalıştırma
 
 1. `HangmanGame.java` dosyasını bir Java IDE’sinde açın veya terminalden çalıştırın:
    ```bash
@@ -43,7 +43,7 @@ _ _ _ _ _ _
 Enter your guess: e
 ***
 
-Öğrenilenler
+## Öğrenilenler
 - ArrayList ile dinamik liste yönetimi
 
 - Karakter dizisi ve kullanıcı girişi kontrolü
@@ -53,7 +53,7 @@ Enter your guess: e
 - switch-case yapısı ile ASCII sanat (adam çizimi)
 ***
 
-Geliştirme Fikirleri
+## Geliştirme Fikirleri
 - Zorluk seviyesi (kolay / zor kelimeler)
 
 - Dosyadan kelime çekme
@@ -63,5 +63,5 @@ Geliştirme Fikirleri
 - Türkçe karakter desteği
 ***
 
-Geliştiren
+## Geliştiren
 Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
