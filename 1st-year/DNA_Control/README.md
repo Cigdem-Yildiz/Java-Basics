@@ -10,7 +10,7 @@ Kullanılan Teknolojiler
 -Eclipse IDE
 *************
 
-## Dosyalar
+# Dosyalar
 
 DNA_Control/
 ├── DNAControl.java
