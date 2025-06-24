@@ -12,10 +12,12 @@ Kullanılan Teknolojiler
 
 Dosyalar
 
+```
 DNA_Control/
 ├── DNAControl.java
 ├── DNAControlTest.java
 └── README.md
+```
 *************
 
 Nasıl Çalışır?
