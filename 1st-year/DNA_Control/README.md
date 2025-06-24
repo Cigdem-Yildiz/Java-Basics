@@ -2,10 +2,14 @@
 
 Bu program iki DNA dizisi arasındaki en uzun ortak parçayı bulmak için tasarlanmış basit bir java projesidir. 
 
+---
+
 ## Kullanılan Teknolojiler
 
 - Java
 - Eclipse IDE
+
+---
 
 ## Dosyalar
 
@@ -15,6 +19,7 @@ DNA_Control/
 ├── DNAControlTest.java
 └── README.md
 ```
+---
 
 ## Nasıl Çalışır?
 
@@ -22,11 +27,15 @@ DNA_Control/
 2. Bu diziler arasında geçen en uzun ortak alt diziyi bulur.
 3. Eğer ortak bir parça yoksa uyarı verir.
 
+---
+
 ## Programı Çalıştırma
 
 1. Kodu Java IDE’nize yapıştırın veya terminal üzerinden kullanın.
 2. 'DNAControlTest.java' dosyasını çalıştırın.
 3. Konsoldan iki DNA dizisi girin.
+
+---
 
 ## Örnek Girdi - Çıktı
 
@@ -36,11 +45,15 @@ Enter the second dna: GTCGTAG
 
 Common parts: TCGTA (5)
 
+---
+
 ## Öğrenilenler
 
 - 'substring()' ve 'contains()' metodlarıyla string işlemleri
 - Karakter dizisi karşılaştırma mantığı
 - Sınıf yapısı ve nesne oluşturma
+
+---
 
 ## Geliştiren
 
