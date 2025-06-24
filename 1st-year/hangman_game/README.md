@@ -36,8 +36,32 @@ Programı Çalıştırma
    ```bash
    javac HangmanGame.java
    java HangmanGame
-   
+
 2. Konsola harf girerek oyunu oynayın:
 
 _ _ _ _ _ _
 Enter your guess: e
+***
+
+Öğrenilenler
+- ArrayList ile dinamik liste yönetimi
+
+- Karakter dizisi ve kullanıcı girişi kontrolü
+
+- Random sınıfı ile rastgele kelime seçimi
+
+- switch-case yapısı ile ASCII sanat (adam çizimi)
+***
+
+Geliştirme Fikirleri
+- Zorluk seviyesi (kolay / zor kelimeler)
+
+- Dosyadan kelime çekme
+
+- Skor sistemi ekleme
+
+- Türkçe karakter desteği
+***
+
+Geliştiren
+Çiğdem Yıldız (https://github.com/Cigdem-Yildiz)
