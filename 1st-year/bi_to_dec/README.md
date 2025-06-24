@@ -12,9 +12,11 @@ Kullanılan Teknolojiler
 
 Dosya Yapısı
 
+```
 bi_to_dec/
--BinaryToDeci.java
--README.md
+├── BinaryToDeci.java
+└── README.md
+```
 **************
 
 Nasıl Çalışır?
