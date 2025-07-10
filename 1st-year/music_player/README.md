@@ -1,8 +1,7 @@
 # Müzik Çalar
 
 Bu proje, `.wav` formatındaki müzik dosyalarını çalabilen basit bir **Java tabanlı müzik çalar**dır.  
-Kullanıcılar; şarkıyı başlatabilir, durdurabilir, sıfırlayabilir ve listedeki parçalar arasında gezinebilir.  
-**Gelecek adım:** Projeye kullanıcı arayüzü (GUI) eklenecektir.
+Kullanıcılar arayüz üzerinden şarkıyı başlatabilir, durdurabilir, sıfırlayabilir ve listedeki parçalar arasında gezinebilir. 
 
 ---
 
@@ -17,6 +16,7 @@ Kullanıcılar; şarkıyı başlatabilir, durdurabilir, sıfırlayabilir ve list
 ## Dosya Yapısı
 ```
 music_player/
+├── MusicPlayerInterface.java
 ├── MusicPlayerMain.java
 └── README.md
 ```
@@ -27,13 +27,8 @@ music_player/
 
 - `.wav` uzantılı müzik dosyalarını tanır
 - Otomatik olarak klasördeki tüm şarkıları listeler
-- Kullanıcıdan komut alarak:
-  -  `P` — Şarkıyı çalar(Play)
-  -  `S` — Durdurur(Stop)
-  -  `R` — Baştan başlatır(Restart)
-  -  `N` — Sonraki şarkıya geçer(Next Song)
-  -  `F` — Önceki şarkıya döner(Previous Song)
-  -  `E` — Programdan çıkar(Exit)
+- Arayüzdeki butonları kullanarak şarkıyı durdurur, başlatır, sonraki veya önceki şarkıyı oynatır, şarkıyı baştan başlatır.
+- Frame kapandığında şarkı kapanır.
 
 ---
 
@@ -43,47 +38,29 @@ music_player/
    ```java
    String directoryPath = "C:\\Users\\_YOUR_NAME\\Music";
 
-2. Derleyip çalıştır:
+2. Tüm sınıfları derleyin:
    ```bash
-   javac MusicPlayerMain.java
+   javac MusicPlayerMain.java MusicPlayerInterface.java
+
+3. Programı başlatın:
+   ```bash
    java MusicPlayerMain
 
-3. Programı başlatıp ekrandaki yönergeleri izleyin.
+4. Arayüz açıldığında müzik seçme, oynatma ve duraklatma gibi işlemleri butonlar üzerinden gerçekleştirebilirsiniz.
 
 ---
 
-## Örnek Konsol Görünümü
-
-```
-****************
-* MUSIC PLAYER *
-****************
-
-Now selected: 4 O'CLOCK - R&V.wav
-
-P = Play
-S = Stop
-R = Reset
-N = Next Song
-F = Former Song
-E = Exit
-Enter your choice:
-```
-
----
 
 ## Planlanan Geliştirme: GUI Arayüz
 
 Swing veya JavaFX kullanılarak görsel bir arayüz eklenecek.
 Bu sayede kullanıcı:
 
-- Butonlar ile parçaları kontrol edebilecek
+- Butonlar ile parçaları kontrol edebilecek ✓
 
 - Liste görünümünden şarkı seçebilecek
 
-- Arka planda otomatik geçiş ve görsel efektler eklenecek
-
-Not: GUI sürümü ayrı bir branch veya klasörde yayınlanacaktır.
+- Arka planda otomatik geçiş ve görsel efektler eklenecek ✓
 
 ---
 
@@ -95,7 +72,13 @@ Not: GUI sürümü ayrı bir branch veya klasörde yayınlanacaktır.
 
 - Exception yönetimi (IOException, UnsupportedAudioFileException)
 
-- Döngü ve kullanıcı etkileşimi
+- Java'da `JFrame`, `JButton`, `JPanel` gibi bileşenlerle temel GUI oluşturmayı ve yerleşim düzenlerini (`FlowLayout`, `setBounds`) kullanmayı öğrendim.
+  
+- `ActionListener` gibi event listener’larla kullanıcı etkileşimini yönetmeyi ve `.wav` dosyalarını GUI üzerinden çalmayı başardım.
+
+- Arayüzde ikon hizalaması ve görsel düzenlemeler üzerine çalıştım.
+
+- Yeni GUI sürümünü izole bir şekilde geliştirmek için `git branch` yapısını öğrendim ve kullandım.
 
 ---
 
