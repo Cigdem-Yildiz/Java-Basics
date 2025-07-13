@@ -1,24 +1,33 @@
 package alarm_clock;
 
-public class AlarmClock {
+import java.time.LocalTime;
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
-		LocalTime alarmTime = null;
+public class AlarmClock implements Runnable {
+	private String musicPath;
+	private LocalTime alarmTime;
 
-		while (alarmTime == null) {
-			System.out.print("Enter the alarm time(HH:MM:SS): ");
-			String inputTime = scanner.nextLine();
+	AlarmClock(LocalTime alarmTime, String musicPath) {
+		this.alarmTime = alarmTime;
+		this.musicPath = musicPath;
+	}
 
+	@Override
+	public void run() {
+
+		while (LocalTime.now().isBefore(alarmTime)) {
 			try {
-				alarmTime = LocalTime.parse(inputTime, formatter);
-			} catch (DateTimeParseException e) {
-				System.out.println("Wrong format, try again!");
+				Thread.sleep(1000);
+				LocalTime lTime = LocalTime.now();
+
+				System.out.printf("\r%02d:%02d:%02d", lTime.getHour(), lTime.getMinute(), lTime.getSecond());
+				System.out.flush();
+
+			} catch (InterruptedException e) {
+				System.out.println("Thread was interrupted.");
 			}
-			
-			
 		}
+		System.out.println("\n*Alarm Noise*");
+
 	}
 
 }
