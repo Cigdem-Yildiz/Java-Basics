@@ -28,11 +28,10 @@ public class AlarmClockMain {
 
 		}
 
-		AlarmClock alarmClock = new AlarmClock(alarmTime, musicPath);
+		AlarmClock alarmClock = new AlarmClock(alarmTime, musicPath, scanner);
 		Thread alarmThread = new Thread(alarmClock);
 		alarmThread.start();
 
-		scanner.close();
 	}
 
 }
