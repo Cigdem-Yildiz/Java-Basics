@@ -24,6 +24,10 @@ public class AlarmClock implements Runnable {
 
 	@Override
 	public void run() {
+		if(LocalTime.now().isAfter(alarmTime)) {
+			System.out.println("This time already passed for today! Please enter a valid time.");
+			return;
+		}
 
 		while (LocalTime.now().isBefore(alarmTime)) {
 			try {
