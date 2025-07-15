@@ -11,6 +11,7 @@ Projeler, sınıflara (yıllara) ve konulara göre organize edilmiştir.
 java/
 ├── 1st-year/
 │ ├── DNA_Control/
+│ ├── alarm_clock/
 │ ├── bi_to_dec/
 │ ├── hangman_game/
 │ ├── music_player/
@@ -26,6 +27,7 @@ java/
 | Proje | Açıklama |
 |-------|----------|
 | [DNA_Control](1st-year/DNA_Control) | DNA dizilerindeki en uzun ortak alt diziyi bulur |
+| [alarm_clock](1st-year/alarm_clock) | İstenilen saat ve dakikaya alarm kurar |
 | [bi_to_dec](1st-year/bi_to_dec) | Binary string'i ondalık sayıya çevirir |
 | [vowel_counter](1st-year/vowel_counter) | Cümledeki sesli harfleri sayar |
 | [rock_paper_scissors](1st-year/rock_paper_scissors) | Taş - Kağıt - Makas oyunu |
