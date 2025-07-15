@@ -53,7 +53,7 @@ public class AlarmClock implements Runnable {
 			clip.open(audioInputStream);
 			clip.start();
 
-			System.out.print("Press *Enter* to stop the alarm: ");
+			System.out.print("\nPress *Enter* to stop the alarm: ");
 			scanner.nextLine();
 			clip.stop();
 			scanner.close();
