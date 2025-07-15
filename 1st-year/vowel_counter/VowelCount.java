@@ -23,8 +23,10 @@ public class VowelCount {
 			}
 			i++;
 		}
-
-		System.out.println("There are " + count + " vowels in \"" + sentence + "\"");
+		if(count==1)
+			System.out.println("There is 1 vowel in \"" + sentence + "\"");
+		else
+			System.out.println("There are " + count + " vowels in \"" + sentence + "\"");
 
 		scanner.close();
 	}
