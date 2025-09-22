@@ -13,7 +13,7 @@ public class BinaryRunLengthEncoder {
 		String binaryMsg = messageToBinary(message);
 		String encodedMsg = encodeBinary(binaryMsg);
 
-		System.out.println(encodedMsg);
+		System.out.println("Encoded message:" + encodedMsg);
 
 		in.close();
 	}
@@ -54,4 +54,5 @@ public class BinaryRunLengthEncoder {
 	}
 
 }
+
 
