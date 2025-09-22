@@ -13,6 +13,7 @@ java/
 │ ├── DNA_Control/
 │ ├── alarm_clock/
 │ ├── bi_to_dec/
+│ ├── binaryRunLengthEncoder/
 │ ├── hangman_game/
 │ ├── music_player/
 │ ├── rock_paper_scissors/
@@ -29,6 +30,7 @@ java/
 | [DNA_Control](1st-year/DNA_Control) | DNA dizilerindeki en uzun ortak alt diziyi bulur |
 | [alarm_clock](1st-year/alarm_clock) | İstenilen saat ve dakikaya alarm kurar |
 | [bi_to_dec](1st-year/bi_to_dec) | Binary string'i ondalık sayıya çevirir |
+| [binaryRunLengthEncoder](1st-year/binaryRunLengthEncoder) | Verilen mesajı binary versiyonundaki değerlerin tekrarına göre şifreler |
 | [vowel_counter](1st-year/vowel_counter) | Cümledeki sesli harfleri sayar |
 | [rock_paper_scissors](1st-year/rock_paper_scissors) | Taş - Kağıt - Makas oyunu |
 | [hangman_game](1st-year/hangman_game) | Konsol tabanlı adam asmaca oyunu |
