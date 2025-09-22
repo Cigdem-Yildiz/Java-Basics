@@ -24,11 +24,13 @@ bi_to_dec/
 
 ## Örnek Girdi-Çıktı
 
+```
 Enter the binary number: `1 true false no zero one one 0`
 
 Binary number: `1 true false no zero one one 0`
 
 Decimal equivalent: `198`
+```
 
 ## Açıklama
 
