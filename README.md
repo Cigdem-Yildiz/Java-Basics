@@ -40,10 +40,10 @@ java/
 
 ## Amaç
 
-Bu projeler sayesinde:
+Bu projeler aracılığıyla:
 - Java'nın temel sözdizimini, kontrol yapıları ve veri tiplerini öğrendim
-- OOP mantığını uygulamaya başladım
-- Dosya, kullanıcı girişi, karakter ve string işlemlerinde pratiğimi geliştirdim
+- Nesneye yönelik proglamlama mantığını uygulamaya başladım
+- Dosya, kullanıcı girişi, karakter ve string işlemlerinde kendimi geliştirdim
 - Kod düzenleme, modülerlik ve proje yapısı kurma alışkanlığı kazandım
 
 ---
@@ -59,8 +59,7 @@ Bu projeler sayesinde:
 ## Notlar
 
 - Her klasör içerisinde ilgili projeye özel açıklayıcı `README.md` dosyası bulunmaktadır.
-- `.gitignore` kullanılarak derlenmiş (`.class`) dosyalar GitHub'a eklenmemiştir.
-- Projeler gelişime açıktır, GUI ve ileri Java konuları ile genişletilmesi planlanmaktadır.
+- Projeler halen gelişime açık olup GUI ve ileri Java konuları ile geliştirilmesi planlanmaktadır.
 
 ---
 
