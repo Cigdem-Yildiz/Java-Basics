@@ -8,7 +8,7 @@ Projeler, sınıflara (yıllara) ve konulara göre organize edilmiştir.
 ## Klasör Yapısı
 
 ```
-java/
+Java-Basics/
 ├── 1st-year/
 │ ├── DNA_Control/
 │ ├── alarm_clock/
